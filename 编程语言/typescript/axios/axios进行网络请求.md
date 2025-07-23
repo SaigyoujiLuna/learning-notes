@@ -29,4 +29,5 @@ config对象定义链接:[Request Config](https://axios-http.com/docs/req_config
 这些网络请求方法返回值都是Promise<AxiosResponse<T>>类型
 
 AxiosResponse对象定义:[Response Schema](https://axios-http.com/docs/res_schema)
+对于网络请求错误的处理方式参见[[axios错误处理]]
 
