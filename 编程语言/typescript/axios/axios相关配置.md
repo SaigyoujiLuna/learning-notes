@@ -13,3 +13,4 @@ const instance = axios.create({ baseURL: 'https://api.example.com' });
 // Alter defaults after instance has been created 
 instance.defaults.headers.common['Authorization'] = AUTH_TOKEN;
 ```
+实例创建后可以进行相关配置与网络请求，详见：[[axios进行网络请求]]
