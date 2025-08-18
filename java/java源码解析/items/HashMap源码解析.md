@@ -36,14 +36,8 @@ treeify threshold 为 8（超过8后，红黑树遍历性能大于链表）.
 
 ![image-20220722000032993](https://s2.loli.net/2022/07/22/nAUgxlfWi6ysFT3.png)
 
-这个静态方法看起来是判断Comparable的
-
-![image-20220722000326598](C:\Users\Yuki\AppData\Roaming\Typora\typora-user-images\image-20220722000326598.png)
-
 ## TreeifyBin
-
 判断length是否大于树化长度阈值， 如果不大于则扩容，反之将节点转换为树节点，最后进行树化。
-
 ```java
 final void treeifyBin(Node<K,V>[] tab, int hash) {
         int n, index; Node<K,V> e;
