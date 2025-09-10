@@ -1,0 +1,1 @@
+ArkTS语法与Typescript语法基本一致
